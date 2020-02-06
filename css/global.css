@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+}
+
+.main_container {
+  width:100vw;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:black;
+  
+}
+
+.card.wide {
+  margin-top:30px;
+  width:97%;
+  height:40%;
+  padding-left: 2%;
+}
+
+.card {
+  background-color: darkgray;
+  float:left;
+  padding-left:3%;
+  padding-top:3%;
+  height: 100px;
+  width:100vw;
+}
+
+nav {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  z-index: 10;
+  padding-top: 20px;
+  background-color:lightgray;
+}
+
+nav main a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin-left:20px;
+  top: 30px;
+
+}
+
+nav main a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+nav .selalukananatas {
+  width: 100px;
+  height: 50px;
+  background-image: url('../image/ide.png');
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 5px;
+  right: 20px;
+  border-radius: 15px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+section.full {
+  background-image: url('../image/bg.jpg');
+  background-size:cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+section .left {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  float: right;
+}
+
+image {
+  opacity: 1.0;
+}
+
+image:hover {
+  opacity: 0.5;
+}
+
+section .right {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+
+section .melayang {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  width: 28%;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: lightgray;
+  /*
+  background-color: lightgray;
+  */
+
+
+main {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  width: 100%;
+  height: 58vh;
+}
+
+section .cardwide {
+  position: relative;
+  width: 60%;
+  height: 60%;
+}
+
+section .card {
+  position: relative;
+  width:100vw;
+  height: 150px;
+}
+
+
+/**/
+
+@media (max-width: 1024px) {
+  main {
+    width: 100vw;
+  }
+  
+  .main_container {
+  width:100vw;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+  .card {
+  width:100vw;
+  height:40vh;
+
+}
+ 
+  section .kiri, section .tengah, section .kanan {
+    width: 100vw;
+    height: 30vh;
+    margin-top:10px;
+  }
+  
+  section .melayang {
+    top: 90%;
+    left: 20%;
+    width: 200px;
+  }
+      
+  nav {
+    height:80px;
+  }
+}

@@ -1,0 +1,40 @@
+h1{
+  font-family:'roboto', sans-serif;
+  font-size:50px;
+  text-transform: uppercase;
+  text-align:center;
+  padding-top:15px;
+}
+
+h2 {
+  font-family:'calibri', sans-serif;
+  font-size:30px;
+  text-transform:uppercase;
+  padding-bottom: 10px;
+  text-align:left;
+  color: white;
+}
+
+h3 {
+  font-family:'brandon grotesque', sans-serif;
+  text-transform:uppercase;
+  color: black;
+}
+
+p {
+  font-family:'calibri', sans-serif;
+  font-size:13px;
+  padding-bottom: 10px;
+  padding-left:20px;
+}
+.card.wide h2 {
+  text-align:center;
+  font-size:40px;
+}
+@media (max-width: 1024px) {
+  h1 {
+    font-family:'roboto', sans-serif;
+    font-size:30px;
+    text-align:center;
+ }
+}
